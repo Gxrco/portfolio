@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin: 0%;
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
