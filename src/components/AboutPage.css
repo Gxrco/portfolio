@@ -13,10 +13,10 @@
 .content{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     width: 100%;
-    gap: 100px;
+    gap: 200px;
     margin-top: 150px;
 }
 
@@ -51,7 +51,7 @@ h1{
     color: #ffffff;
     font-size: 3.5rem;
     font-weight: 700;
-    text-shadow: 4px 4px 42px rgba(151, 95, 215, 1);
+    text-shadow: 4px 4px 42px rgb(170, 128, 217);
 }
 
 a:visited{
@@ -60,4 +60,8 @@ a:visited{
 
 a:hover{
     text-shadow: 1px -2px 15px rgba(255,255,255,1);
+}
+
+.message__text{
+    color: #ffffff;
 }

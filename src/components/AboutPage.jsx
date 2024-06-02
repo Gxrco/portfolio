@@ -48,7 +48,7 @@ const AboutPage = () => {
           <div className="message">
             <p className="message__text">Check my projects by yourself →</p>
           </div>
-        </Link>
+      </Link>
     </div>
   );
 };
