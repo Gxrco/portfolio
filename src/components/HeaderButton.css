@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.Header__button {
+    font-family: "Outfit", sans-serif;
+    color: #e3e3e3;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.Header__button:hover{
+    text-shadow: rgb(239, 239, 239) 1px 0 10px;
+}
