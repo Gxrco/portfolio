@@ -1,0 +1,124 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.card__profile__img {
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: -4px -11px 186px 143px rgba(0,0,0,0.91);
+}
+
+.card__profile__img:hover {
+    z-index: 8;
+    box-shadow: -4px -11px 186px 143px rgba(186, 186, 186, 0.148);
+}
+
+.card__profile img {
+    width: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 5;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease; 
+}
+
+.card__profile img:hover {
+    filter: grayscale(0%); 
+    transform: rotate(360deg);
+    z-index: 10;
+}
+
+.text__right p {
+    font-size: 17rem;
+    text-align: center;
+    padding-right: 1rem;
+    margin: 0;
+    z-index: 5;
+    font-weight: 900;
+    font-family: "Outfit", sans-serif;
+}
+
+.text__right{
+    height: fit-content;
+    z-index: 2;
+    position: relative;
+    top: -160px;
+    width: 100%;
+}
+
+.text__left p {
+    font-size: 17rem;
+    text-align: center;
+    padding-right: 1rem;
+    margin: 0;
+    z-index: 5;
+    font-weight: 900;
+    font-family: "Outfit", sans-serif;
+}
+
+.text__left{
+    height: fit-content;
+    z-index: 2;
+    position: relative;
+    top: 180px;
+    width: 100%;
+}
+
+.card p {
+    color: rgba(241, 241, 241, 0.897);
+    letter-spacing: 10px;
+    user-select: none;
+    background: linear-gradient(90deg, rgba(231, 231, 231, 0.891) 0%, rgba(231, 228, 234, 0.837) 50%, rgba(202, 202, 202, 0.64) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.info__user {
+    padding: 50px;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.message {
+   position: relative;
+   bottom: 100px;
+}
+
+.message__text{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    text-shadow: 1px -2px 15px rgba(255,255,255,1);
+}
+
+.card.dark-gradient p {
+    background: linear-gradient(90deg, rgba(241,203,255,1) 0%, rgba(220,192,255,1) 50%, rgba(208,164,255,1) 100%);
+    background-clip: text;
+}
+
