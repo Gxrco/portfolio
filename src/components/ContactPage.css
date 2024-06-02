@@ -1,0 +1,72 @@
+.content-c{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    padding: 40px 20px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(32, 32, 32));
+    height: 500px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.contact-page h1, p{
+    margin: 0;
+}
+
+.contact-page p{
+    font-size: 1.5rem;
+
+}
+
+.app__contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.contact__info img{
+    filter: invert(1);
+    width: 50px;
+    height: auto;
+}
+
+.contact__info p{
+    margin: 0;
+    text-align: center ;
+}
+
+.contact__info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(241,203,255,1) 0%, rgba(220,192,255,1) 50%, rgba(157,124,193,1) 100%);
+    color: rgb(79, 8, 108);
+    padding: 20px;
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease-in-out; 
+    text-decoration: none;
+}
+
+.contact__info:active, .contact__info:focus, .contact__info:visited, .contact__info:link{
+    text-decoration: none;
+    color:rgb(79, 8, 108)
+}
+
+.contact__info:hover {
+    box-shadow: 2px 2px 180px -22px rgba(240,240,240,1);
+}
+

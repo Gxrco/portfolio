@@ -5,6 +5,7 @@ import Welcome from './components/WelcomePage';
 import { AnimatePresence, motion } from 'framer-motion';
 import About from './components/AboutPage';
 import ProjectsPage from './components/ProjectsPage';
+import ContactPage from './components/ContactPage';
 
 const pageVariants = {
   initial: {
@@ -78,7 +79,7 @@ function AnimatedRoutes() {
             transition={pageTransition}
             style={{ position: 'absolute', width: '100%' }}
           >
-            <h1>Contact</h1>
+            <ContactPage />
           </motion.div>
         } />
       </Routes>
